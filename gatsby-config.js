@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-github-pages",
   siteMetadata: {
     title: "gatsby-github-pages",
   },

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from 'gatsby';
+import { Link } from "gatsby";
 
 // styles
 const pageStyles = {
@@ -132,18 +132,15 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Test
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
       </h1>
-      <Link
-        style={linkStyle}
-        to="/test"
-      >
-        Go to Test
+      <Link style={linkStyle} to="/">
+        Go Home
       </Link>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
